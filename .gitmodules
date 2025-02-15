@@ -1,0 +1,3 @@
+[submodule "website_repo"]
+	path = website_repo
+	url = https://github.com/kosakoytim/my-personal-website
