@@ -4,6 +4,8 @@
 [x] Initialize git submodule for personal website
 [x] Configure submodule tracking
 [x] Create initial documentation
+[] Push changes to remote repository
+[] Verify remote repository state
 
 ## Pending Tasks
 [] Set up automated deployment workflow
