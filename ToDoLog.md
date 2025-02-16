@@ -187,6 +187,7 @@
 [x] Install compatible SASS version
 [x] Test compilation with updated SASS
 [x] Verify all styles are working correctly
+[x] Fix Bulma import path in component SASS files
 
 ## Home Hero Fix
 [x] Verify blog highlight Firebase reference structure
