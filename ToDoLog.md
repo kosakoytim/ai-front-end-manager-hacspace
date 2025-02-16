@@ -104,4 +104,15 @@
 ## Git History Check
 [x] Review recent commits and changes
 [x] Identify conflicts or issues with the Profile component
-[x] View latest commits in website_repo 
+[x] View latest commits in website_repo
+
+## GitHub Authentication Setup
+[] Create Personal Access Token (PAT) on GitHub:
+   - Visit GitHub Settings > Developer Settings
+   - Generate new token with repo scope
+   - Save token securely
+[] Configure git credentials:
+   - Set up credential helper
+   - Configure token for repository
+[] Push changes to remote repository
+[] Verify repository state 
