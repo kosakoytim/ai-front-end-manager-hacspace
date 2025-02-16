@@ -85,3 +85,6 @@ Then, create/update the main documentation (named README.md in the root director
 
 Step 2:
 Lastly, commit and push to repository. If not configured, help set up the GitHub repository, also update the root directory README.md documentation on how to set up git repository.
+
+Step 3:
+Analyze project for anything that can be improved. Propose first to the user.
