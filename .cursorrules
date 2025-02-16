@@ -64,7 +64,7 @@ Notes: Do not make action, add files or code, before this phase finish.
 ## Phase 2: Action
 
 Step 1: Working
-Run script, add or adjust code as needed.
+Run script, add or adjust code as needed. GET FULL UNDERSTANDING of the current project design, patterns and configuration, consider your approach to align with it, the code should be able to be compiled and run on this project. If working only on a specific part of the project, MAKES SURE TO NOT BREAK THE OTHER.
 
 Step 2: Testing
 Test your work yourself and make sure that it works as expected. If you need user help, then ask the user. Repeat from step 1 if it does not work as expected or any error arise.
@@ -87,4 +87,4 @@ Step 2:
 Lastly, commit and push to repository. If not configured, help set up the GitHub repository, also update the root directory README.md documentation on how to set up git repository.
 
 Step 3:
-Analyze project for anything that can be improved. Propose first to the user.
+Analyze project for anything that can be improved. Propose first to the user, DO NOT DO ANY ACTION.
