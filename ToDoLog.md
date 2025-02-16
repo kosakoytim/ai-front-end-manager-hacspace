@@ -128,3 +128,88 @@
    - Check https://timmyksky.web.app
    - Test blog section functionality
    - Verify responsive design 
+
+## Portfolio Firebase Migration
+[x] Set up Firebase Storage:
+   - Configure storage rules
+   - Create portfolio directory structure
+   - Set up public access for assets
+[x] Migrate Portfolio Data:
+   - Create database structure
+   - Upload existing images to Firebase Storage
+   - Move apps_list.js data to Firebase Database
+[x] Update Portfolio Components:
+   - Modify Portfolio.vue to fetch from Firebase
+   - Update Project.vue to use Firebase URLs
+   - Adjust app components to use new data structure
+[x] Testing and Verification:
+   - Test data fetching
+   - Verify image loading
+   - Check responsive behavior
+   - Ensure backward compatibility
+[] Documentation:
+   - Update README with new Firebase structure
+   - Document data management process
+   - Add migration instructions 
+
+## Portfolio Firebase Integration Fix
+[x] Configure Babel to support object spread operator
+[x] Update Portfolio.vue component code
+[x] Test portfolio data loading
+[x] Verify Firebase integration works locally
+
+## Portfolio Card Styling
+[x] Adjust portfolio card styling:
+   - Reduce title font size
+   - Add spacing between title and platform icons
+   - Test responsive behavior
+   - Verify changes across all cards
+
+## Portfolio Display Fix
+[x] Fix Firebase data structure reference
+[x] Update Portfolio component data handling
+[x] Verify portfolio styling and layout
+[x] Test portfolio display across different screen sizes
+
+## Portfolio Title and Spacing Fix
+[x] Update portfolio title and subtitle color
+[x] Increase spacing between project title and platform icons
+
+## Portfolio Section Isolation Fix
+[x] Review and revert Firebase configuration changes affecting other sections
+[x] Update portfolio-specific Firebase references
+[x] Test and verify other sections functionality
+[x] Ensure portfolio changes are isolated
+[] Verify all sections work independently
+
+## SASS Compilation Fix
+[x] Check SASS and Node.js version compatibility
+[x] Install compatible SASS version
+[x] Test compilation with updated SASS
+[x] Verify all styles are working correctly
+
+## Home Hero Fix
+[x] Verify blog highlight Firebase reference structure
+[x] Restore original hero section:
+   - Remove duplicate hero section
+   - Remove unused gradient-images div
+   - Clean up hero section styling
+[x] Test hero section display with blog highlight data
+[x] Verify "Read This" button functionality
+
+## Page Restoration Fix
+[] Find last working commit and compare changes
+[] Review and revert Firebase configuration changes
+[] Restore working configuration for non-portfolio pages
+[] Test each section independently:
+   - Home page hero
+   - Blog section
+   - Portfolio section
+   - Profile section
+[] Verify all sections work without conflicts
+
+## Future Improvements
+[] Update SASS imports to use @use/@forward (to address deprecation warnings)
+[] Add proper loader for markdown files in webpack config
+[] Implement error handling for Firebase data loading
+[] Add loading states for portfolio items 
