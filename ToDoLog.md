@@ -107,12 +107,24 @@
 [x] View latest commits in website_repo
 
 ## GitHub Authentication Setup
-[] Create Personal Access Token (PAT) on GitHub:
+[x] Create Personal Access Token (PAT) on GitHub:
    - Visit GitHub Settings > Developer Settings
    - Generate new token with repo scope
    - Save token securely
-[] Configure git credentials:
+[x] Configure git credentials:
    - Set up credential helper
    - Configure token for repository
-[] Push changes to remote repository
-[] Verify repository state 
+[x] Push changes to remote repository
+[x] Verify repository state
+
+## Production Deployment (Blog UI Update)
+[x] Build production version:
+   - Run build command
+   - Verify build output
+[x] Deploy to Firebase:
+   - Verify Firebase login
+   - Deploy to hosting
+[x] Verify deployment:
+   - Check https://timmyksky.web.app
+   - Test blog section functionality
+   - Verify responsive design 
